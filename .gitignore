@@ -23,3 +23,5 @@ dist/*
 # pkg/samples/stamp/*
 # pkg/samples/watermark/*
 
+docs/.jekyll-cache
+docs/_site

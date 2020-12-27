@@ -1,0 +1,29 @@
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+      {% if site.author.github %}
+      <li><a href="https://github.com/{{ site.author.github }}"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    {% endif %}
+<li><a href="https://travis-ci.org/pdfcpu/pdfcpu">
+  <img src="https://travis-ci.org/pdfcpu/pdfcpu.svg?branch=master" alt="Travis build"></a></li>
+<li><a href="https://pkg.go.dev/github.com/pdfcpu/pdfcpu">
+  <img src="https://godoc.org/github.com/pdfcpu/pdfcpu?status.svg" alt="GoDoc"></a></li>
+<li><a href="https://coveralls.io/github/pdfcpu/pdfcpu?branch=master">
+  <img src="https://coveralls.io/repos/github/pdfcpu/pdfcpu/badge.svg" alt="Coverage"></a></li>
+<li><a href="https://goreportcard.com/badge/github.com/pdfcpu/pdfcpu">
+  <img src="https://img.shields.io/github/release/pdfcpu/pdfcpu.svg" alt=""></a></li>
+<li><a href="https://github.com/pdfcpu/pdfcpu/releases">
+  <img src="https://img.shields.io/hexpm/l/plug.svg" alt="Release"></a></li>
+
+
+
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{
+  site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a
+    href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
+  
+</div>
