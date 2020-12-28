@@ -1,11 +1,67 @@
 main:
-  - title: "Getting Started"
-    url: /getting-started
-  - title: "News"
-    url: /news
+  - title: "Examples"
+    url: /examples
   - title: "Command-Line"
-    title: "API"
-    url: /api
+    url: /cli
+  - title: "API"
+    url: https://pkg.go.dev/github.com/pdfcpu/pdfcpu/pkg/api
+  - title: "Changelog"
+    url: /changelog
   - title: "About"
     url: /about
 
+cli:
+  - title: "Getting Started"
+    children:
+       - title: "Installation"
+         url: /cli/installation
+       - title: "Usage"
+         url: /cli/installation/Usage
+  - title: "Fonts"
+    children:
+       - title: "List"
+         url: /cli/fonts
+       - title: "Install"
+         url: /cli/fonts/List
+       - title: "Cheat Sheets"
+         url: /cli/fonts/cheatsheets
+  - title: "Core Commands"
+    children:
+       - title: "Validate"
+         url:  
+       - title: "Optimize"
+         url:  
+       - title: "Merge"
+         url:  
+       - title: "Split"
+         url:   
+       - title: "Trim"
+         url:  
+       - title: "Collect"
+         url:  
+       - title: "Rotate"
+         url:  
+       - title: "Stamp"
+         url:  
+       - title: "Watermark"
+         url:  
+       - title: "N-up"
+         url:  
+       - title: "Grid"
+         url:  
+       - title: "Crop"
+         url:  
+  - title: "Generate Commands"
+    children:
+       - title:
+         url:  
+       - title:
+         url:  
+  - title: "Pages"
+    children:
+       - title:
+         url:  
+  - title: "Extraction"
+    children:
+       - title:
+         url:  

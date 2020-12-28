@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: splash
+title: "About"
+permalink: /about
 ---
 
-# About
+# About 'pdfcpu'
 
 `pdfcpu` is a PDF processor written in Go supporting encryption.
 
@@ -24,3 +26,5 @@ func Optimize(rs io.ReadSeeker, w io.Writer, conf *pdf.Configuration) error
 ```
 
 Learn more about the API including examples for all operations at [GoDoc](https://godoc.org/github.com/pdfcpu/pdfcpu/pkg/api).
+
+
