@@ -4,6 +4,10 @@
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: default
 
+# server settings
+url: "https://gernotstarke.github.io/pdfcpu"
+baseurl : ""
+
 # Site Settings
 locale                   : "en"
 title                    : "pdfcpu"
@@ -13,7 +17,7 @@ description              : "A PDF Processor in Golang"
 breadcrumbs              : false
 
 repository               : "gernotstarke/pdfcpu"
-teaser                   : ""
+teaser                   : "/assets/logoSmall.png"
 words_per_minute         : 
 
 
@@ -39,6 +43,7 @@ include:
   - .htaccess
   - _pages
   - _posts
+  
 
 exclude:
   - config
@@ -47,8 +52,14 @@ exclude:
   - package.json
   - Rakefile
   - README
+  - Dockerfile
+  - ./manage-site.sh
+  - docker-compose.yml
+
 keep_files:
   - .git
+  - assets
+
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
