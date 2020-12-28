@@ -7,7 +7,7 @@ name                     : "Horst Rutter"
 description              : "A PDF Processor in Golang"
 url                      : "localhost"
 baseurl                  : ""
-repository               : "pdfunit/pdfunit"
+repository               : "gernotstarke/pdfunit"
 teaser                   : ""
 words_per_minute         : 
 
@@ -30,13 +30,11 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 0 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+github: [metadata]
 
-include:
-  - _pages
-  - _posts
   
 # Reading Files
 include:
@@ -45,10 +43,6 @@ include:
   - _posts
 
 exclude:
-  - vendor
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
   - config
   - Gemfile
   - LICENSE
@@ -120,8 +114,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false

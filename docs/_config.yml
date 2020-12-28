@@ -12,8 +12,8 @@ url                      : "https://gernotstarke.github.io/pdfcpu"
 
 
 baseurl                  : "/"
-repository               : "pdfunit/pdfunit"
-teaser                   : ""
+repository               : "gernotstarke/pdfunit"
+teaser                   : 
 words_per_minute         : 
 
 
@@ -34,23 +34,17 @@ remote_theme: mmistakes/minimal-mistakes
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate:  # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-include:
-  - _pages
-  - _posts
 
 # Reading Files
 include:
   - .htaccess
   - _pages
+  - _posts
+
 exclude:
-  - vendor
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
   - config
   - Gemfile
   - LICENSE
@@ -122,8 +116,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
