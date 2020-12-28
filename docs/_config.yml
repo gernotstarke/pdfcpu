@@ -20,7 +20,7 @@ url                      : "https://gernotstarke.github.io/pdfcpu"
 
 
 baseurl                  : "/"
-repository               : "gernotstarke/pdfunit"
+repository               : "gernotstarke/pdfcpu"
 teaser                   : 
 words_per_minute         : 
 
@@ -35,10 +35,6 @@ author:
   email            : ""
   github           : "pdfcpu"
   twitter          : "horst_vie"
-
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
 
 # Outputting
 permalink: /:categories/:title/
