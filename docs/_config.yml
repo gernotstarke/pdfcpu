@@ -5,8 +5,13 @@ title                    : "pdfcpu"
 title_separator          : "-"
 name                     : "Horst Rutter"
 description              : "A PDF Processor in Golang"
+
+## CHANGE HERE to the original URL in case the new site structure will be accpted
 url                      : "https://gernotstarke.github.io/pdfcpu"
-baseurl                  : ""
+#url                      : "https://pdfcpu.io"
+
+
+baseurl                  : "/"
 repository               : "pdfunit/pdfunit"
 teaser                   : ""
 words_per_minute         : 
@@ -26,6 +31,7 @@ author:
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
