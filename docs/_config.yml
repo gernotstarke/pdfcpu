@@ -1,3 +1,10 @@
+# Jekyll technical configuration!
+#
+
+## previous version: 
+theme: minimal-mistakes-jekyll
+##
+minimal_mistakes_skin    : "default"
 
 # Site Settings
 locale                   : "en"
@@ -5,6 +12,7 @@ title                    : "pdfcpu"
 title_separator          : "-"
 name                     : "Horst Rutter"
 description              : "A PDF Processor in Golang"
+breadcrumbs              : false
 
 ## CHANGE HERE to the original URL in case the new site structure will be accpted
 url                      : "https://gernotstarke.github.io/pdfcpu"
