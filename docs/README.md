@@ -10,8 +10,12 @@ Install [Docker](https://docs.docker.com/engine/installation/) and [Docker Compo
 then execute
 
 ```
-docker-compose up
+./manage-site.sh
+
 ```
+
+First build the docker image, then "d"evelop the site go start a local jekyll server.
+
 The site will be served on [localhost:4000](http://localhost:4000)
 
 

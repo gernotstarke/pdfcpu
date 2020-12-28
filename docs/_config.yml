@@ -1,10 +1,8 @@
 # Jekyll technical configuration!
 #
 
-## previous version: 
-theme: minimal-mistakes-jekyll
-##
-minimal_mistakes_skin    : "default"
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: default
 
 # Site Settings
 locale                   : "en"
@@ -14,14 +12,8 @@ name                     : "Horst Rutter"
 description              : "A PDF Processor in Golang"
 breadcrumbs              : false
 
-## CHANGE HERE to the original URL in case the new site structure will be accpted
-url                      : "https://gernotstarke.github.io/pdfcpu"
-#url                      : "https://pdfcpu.io"
-
-
-baseurl                  : "/"
 repository               : "gernotstarke/pdfcpu"
-teaser                   : 
+teaser                   : ""
 words_per_minute         : 
 
 
@@ -95,21 +87,8 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
 
 
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
 
 
 # Defaults
