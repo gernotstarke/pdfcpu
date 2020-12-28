@@ -1,14 +1,13 @@
 version: "2.0"
 
 services:
-  site:
+  pdfcpu-jekyll-site:
     build: .
     image: pdfcpu-site
-    command: jekyll serve --trace --host 0.0.0.0 --watch --config _config-dev.yml
+    command: jekyll serve --trace --host 0.0.0.0 --watch --incremental --config _config.yml,_config-dev.yml
     environment:
       - JEKYLL_ENV=development
     volumes:
       - ./:/srv/jekyll
-      - $PWD/_config-dev.yml
     ports:
       - 4000:4000

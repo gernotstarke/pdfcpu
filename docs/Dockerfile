@@ -1,9 +1,9 @@
 FROM jekyll/jekyll:stable
 
-WORKDIR /srv/jekyll
 
 COPY Gemfile .
-COPY Gemfile.lock .
 
+RUN gem install bundler:1.16.1 && bundle && bundle update --bundler
 
-RUN bundle install
+WORKDIR /srv/jekyll
+EXPOSE 4000
