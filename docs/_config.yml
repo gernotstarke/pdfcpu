@@ -17,7 +17,7 @@ description              : "A PDF Processor in Golang"
 breadcrumbs              : false
 
 repository               : "gernotstarke/pdfcpu"
-teaser                   : "/assets/logoSmall.png"
+teaser                   : "/images/logoSmall.png"
 words_per_minute         : 
 
 

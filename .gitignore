@@ -25,3 +25,5 @@ dist/*
 
 docs/.jekyll-cache
 docs/_site
+docs-orig
+docs/.jekyll-metadata
