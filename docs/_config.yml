@@ -43,14 +43,14 @@ include:
   - .htaccess
   - _pages
   - _posts
-  
+  - assets
+
 
 exclude:
   - config
   - Gemfile
   - LICENSE
   - package.json
-  - Rakefile
   - README
   - Dockerfile
   - ./manage-site.sh

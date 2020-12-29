@@ -4,7 +4,9 @@ title: "About"
 permalink: /about
 ---
 
-# About 'pdfcpu'
+# About `pdfcpu`
+
+<img src="{{site-url}}/assets/logoSmall.png" width=200 align=right>
 
 `pdfcpu` is a PDF processor written in Go supporting encryption.
 
