@@ -14,7 +14,7 @@ title                    : "pdfcpu"
 title_separator          : "-"
 name                     : "Horst Rutter"
 description              : "A PDF Processor in Golang"
-breadcrumbs              : false
+breadcrumbs              : true
 
 repository               : "gernotstarke/pdfcpu"
 teaser                   : "/images/logoSmall.png"
@@ -110,7 +110,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: false
       comments: false
       share: false

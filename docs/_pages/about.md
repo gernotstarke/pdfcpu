@@ -6,7 +6,7 @@ permalink: /about
 
 # About `pdfcpu`
 
-<img src="{{site-url}}/assets/logoSmall.png" width=200 align=right>
+<img src="{{site-url}}/assets/logoSmall.png" width=200 align=right alt="you should see a logo here">
 
 `pdfcpu` is a PDF processor written in Go supporting encryption.
 

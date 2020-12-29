@@ -13,3 +13,6 @@ Use shell scripts and the CLI to build your PDF processing pipelines for batch p
 You can use `pdfcpu` to manipulate your PDF files on the command line of all major platforms.
 
 In case you prefer using `pdfcpu` as a library within your own golang programs, have a look at the [API](    url: https://pkg.go.dev/github.com/pdfcpu/pdfcpu/pkg/api)
+
+
+![]({{site-url}}/assets/site-logo.png)
